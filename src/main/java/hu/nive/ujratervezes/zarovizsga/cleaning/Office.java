@@ -9,6 +9,7 @@ public class Office extends House implements Cleanable {
         this.floor = floor;
     }
 
+    @Override
     public int getArea() {
         return super.getArea() * floor;
     }
