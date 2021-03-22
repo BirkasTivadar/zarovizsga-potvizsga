@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CleaningServiceTest {
-    /*
+
     CleaningService service = new CleaningService();
 
     @BeforeEach
@@ -47,6 +47,5 @@ class CleaningServiceTest {
         assertEquals("Bp. Fo ut 1., Bp. Fo ut 2., Bp. Fo ut 3., Bp. Fo ut 4.", service.getAddresses());
     }
 
-     */
 
 }
