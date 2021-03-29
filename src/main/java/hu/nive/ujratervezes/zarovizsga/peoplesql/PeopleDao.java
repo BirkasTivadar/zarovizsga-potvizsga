@@ -24,7 +24,6 @@ public class PeopleDao {
             ps.setString(2, lastName);
             result = getIpAdress(ps);
         } catch (SQLException sqlException) {
-            sqlException.printStackTrace();
             throw new IllegalStateException("Connection failed", sqlException);
         }
         return result;
